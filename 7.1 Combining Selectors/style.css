@@ -1,0 +1,27 @@
+h1, h2 {
+    color: blueviolet;
+}
+
+/* child selector */
+/* can only be appiled with 1 level deep */
+.box > .done {
+    color: firebrick;
+}
+
+/* descendant selector */
+/* can be applied with multiple levels deep */
+.box li{
+    color: blue;
+} 
+
+/* chaining selector */
+/* the chaining method can be really specific */
+li.done {
+    color: seagreen;
+}
+
+/* combining combiners */
+/* descendant selector & chaining selector */
+ul p.done {
+    font-size: 0.5rem;
+}
